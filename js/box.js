@@ -2,8 +2,8 @@ let add = document.querySelectorAll(".add")
 let sub = document.querySelectorAll(".sub")
 let generate = document.querySelector(".generate")
 let playT = document.querySelector(".play")
-let text = [`Tell the truth!! <i class="fa-solid fa-check "></i>`,
-    `Try to lie <i
+let text = [`Tell The Truth!! <i class="fa-solid fa-check "></i>`,
+    `Try To Lie <i
  class="fa-solid fa-face-grin-beam-sweat lie-e"></i>`
 ]
 let reset = document.querySelector(".reset")
