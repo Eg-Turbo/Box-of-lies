@@ -1,0 +1,29 @@
+.team input {
+    width: auto;
+}
+
+.type {
+    width: fit-content;
+    max-width: 100%;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border: none;
+}
+
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none;
+    border: none;
+}
+
+.img {
+    max-height: 300px;
+}
+
+.img img {
+    max-height: 100%;
+}

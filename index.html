@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Box Of Lies</title>
+</head>
+
+<body>
+    <h1 class="text-center text-danger my-5">Box Of Lies Generator</h1>
+    <div class="container">
+        <div class="des my-5">
+            <p>
+                This is a<span class="text-danger fs-4"> Box Of Lies </span>generator (instructions open in new tab),
+                designed
+                for
+                playing the EFL / ESL game of the
+                same name. A random picture is generated, and students can choose to describe it or invent their own
+                description.
+                The game was made famous by the Tonight Show with Jimmy Fallon, in which the host and a celebrity
+                describe/invent strange objects.
+                Note: All images on this site have been taken from sources that list them as Public Domain Images.
+                However,
+                if
+                you believe that you own the copyright to one or more of these images, or that you appear as an
+                identifiable
+                person without your permission, please contact us and we will immediately remove the image from the
+                site.
+            </p>
+        </div>
+        <div class="generation text-center">
+            <div class="buttons w-100 mb-3">
+                <button class="btn btn-primary w-25 me-3 generate">Generate</button>
+                <button class="btn btn-danger w-25 reset">Reset</button>
+            </div>
+            <p class="fs-3 text-success play text-danger">Generate</p>
+            <div class="row justify-content-center">
+                <div class="img col-sm-12 col-md-10 col-lg-8">
+                    <img src="" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="team my-5">
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="box bg-primary p-2 text-center mb-3">
+                        <div contenteditable class="type mb-3 mx-auto text-light fs-4 ">Team1</div>
+                        <div contenteditable class="type mb-3 mx-auto text-light fs-4 num">0</div>
+                        <button class="btn px-3 py-1 fs-3 text-light add">+</button>
+                        <button class="btn px-3 py-1 fs-3 text-light sub">-</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="box bg-danger p-2 text-center">
+                        <div contenteditable class="type mb-3 mx-auto text-light fs-4">Team2</div>
+                        <div contenteditable class="type mb-3 mx-auto text-light fs-4 num">0</div>
+                        <button class="btn px-3 py-1 fs-3 text-light add">+</button>
+                        <button class="btn px-3 py-1 fs-3 text-light sub">-</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="box bg-warning p-2 text-center">
+                        <div contenteditable class="type mb-3 mx-auto text-light fs-4">Team3</div>
+                        <div contenteditable class="type mb-3 mx-auto text-light fs-4 num">0</div>
+                        <button class="btn px-3 py-1 fs-3 text-light add">+</button>
+                        <button class="btn px-3 py-1 fs-3 text-light sub">-</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="box bg-success p-2 text-center">
+                        <div contenteditable class="type mb-3 mx-auto text-light fs-4">Team4</div>
+                        <div contenteditable class="type mb-3 mx-auto text-light fs-4 num">0</div>
+                        <button class="btn px-3 py-1 fs-3 text-light add">+</button>
+                        <button class="btn px-3 py-1 fs-3 text-light sub">-</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="js/all.min.js"></script>
+    <script src="js/box.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
